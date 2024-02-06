@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: "LickerLi One";
+}
+
+.organizer {
+    width: 100%;
+    min-height: 100vh; /* Use min-height to ensure content is visible on smaller screens */
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 160px;
+    color: #FCFCFB;
+    font-weight: 600;
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.content a {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    color: #FCFCFB;
+    font-size: 24px;
+    border: 2px solid #FCFCFB;
+    padding: 14px 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.back-video {
+    position: absolute;
+    top: 7;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+hr.solid {
+    border-top: 4px solid;
+    color: #814B40;
+}
+
+.info {
+    width: 100%;
+    min-height: 100vh; /* Use min-height to ensure content is visible on smaller screens */
+    background-color: #D9D3C1;
+    padding: 0 5%;
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 60px;
+    color: #355D65;
+    font-weight: 600;
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.aContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.about p {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    color: #2B2B2B;
+    font-size: 26px;
+    border: 4px solid #8C402E;
+    background-color: #FAFAF7;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.aCenter-image {
+    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .aContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
